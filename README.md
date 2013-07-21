@@ -1,7 +1,7 @@
 menu360
 =======
 
-PHP and JQUERY code that display a menu in circle
+PHP and JQUERY code that display a menu in circle and responsive.
 
 see an example here : http://www.mhanai.fr/menu360/
 
