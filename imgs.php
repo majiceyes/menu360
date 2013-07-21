@@ -19,7 +19,7 @@
 	 * WIDTH et HEIGHT, les dimensions
 	*/ 
 	/////////////////////////////////////////////////	
-	/* scanDirectory contient une fonction qui
+	/* lireRepertoire.php contient une fonction qui
 	 * renvoie un tableau des noms de fichiers
 	*/
 	require "./fonctions/lireRepertoire.php";
