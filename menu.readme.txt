@@ -23,6 +23,7 @@ du menu et les fichier HTML qui sont dans le dossier textes afficheront
 le texte au format HTML dans le panneau droit du menu.
 Nécessite jQuery pour fonctionner.
 
+
 ////////////////////////////////////////////////////////////////////////////////////////
 In this example, the page that calls the menu is the index.php using these lines
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -35,3 +36,5 @@ In this example, the page that calls the menu is the index.php using these lines
 	creerMenu($imagesFolder,$textsFolder);
 ?>
 
+
+You can download a zip file here : www.mhanai.fr/menu360/menu360.zip
