@@ -1,0 +1,37 @@
+Le menu 360
+author Médhi Hanai
+July 2013
+If you have any question, remark or suggestion
+you can contact me at contact@mhanai.fr
+
+
+This PHP code display a menu whose elements are displayed in circle.
+All you have to do is place these files in a folder and place
+the page that call the menu in the same folder.
+You can also easily use it in a MVC structure.
+In the following example, the folder images/ contains the pics
+that are displayed on each menu item. You can add as many as you want.
+The folder textes contains some HTML code that is related to the menu item.
+The files names must be the same (ex : menu1.jpg and menu1.html)
+You need jQuery library for this to work.
+
+Ce code PHP permet d'afficher un menu de manière circulaire et peut
+facilement être utilisé sur un modèle MVC.
+Il donnera un style différent à votre site :)
+Les images contenues dans le dossier images/ seront les éléments
+du menu et les fichier HTML qui sont dans le dossier textes afficheront
+le texte au format HTML dans le panneau droit du menu.
+Nécessite jQuery pour fonctionner.
+
+////////////////////////////////////////////////////////////////////////////////////////
+In this example, the page that calls the menu is the index.php using these lines
+////////////////////////////////////////////////////////////////////////////////////////
+
+<?php
+  $imagesFolder = "./images/"; //définir le dossier qui contient les images. Define the image folder
+	$textsFolder = "./textes/"; //définir le dossier qui contient les textes associés. Define the texts folder
+
+	require "360menu.php";
+	creerMenu($imagesFolder,$textsFolder);
+?>
+
